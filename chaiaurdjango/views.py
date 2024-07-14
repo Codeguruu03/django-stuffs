@@ -9,4 +9,5 @@ def about(request):
     return HttpResponse('Hello, World!. you are at chai aur Django about page')
 
 def contact(request):
-    return HttpResponse('Hello, World!. you are at chai aur Django contact page')
+    # return HttpResponse('Hello, World!. you are at chai aur Django contact page')
+    return render(request, 'contact.html')
